@@ -31,7 +31,7 @@ fi
 echo "Key verified successfully. Proceeding with setup..."
 
 # Clone the repository
-REPO_URL="https://github.com/BossOPMC94/CRASHCLOUD-VPS-MAKER-BOT.git"
+REPO_URL="https://github.com/vedikkoli/CRASHCLOUD-VPS-MAKER-BOT.git"
 echo "Cloning the repository..."
 git clone "$REPO_URL" || { echo "Failed to clone repository."; exit 1; }
 
